@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+}
+
+.mainContainer{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-30%);
+}
+
+h1{
+    color: rgb(41, 220, 41);
+    font-weight: 900;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    border-radius: 0.5rem;
+    margin-inline: 1rem;
+}
+
+button:active{
+    scale:0.8
+}
+
+img{
+    height: 10rem;
+    width: 10rem;
+}
+
+p{
+    font-size: 2rem;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:active{
+    scale: 0.8;
+}
+
+.reset-button{
+    font-size: 1.5rem;
+    padding: 0.2rem 1rem;
+    background-color: red;
+    color: aqua;
+    font-weight: 800;
+    border: none;
+    border-radius: 0.5rem;
+    margin-inline: 1rem;
+}

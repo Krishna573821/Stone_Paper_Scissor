@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stone Paper Scissor</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="mainContainer">
+      <h1>CHOOSE ONE</h1>
+
+      <button onclick="clicked(1)"><img src="images/stone.png" alt="Stone Image"></button>
+      <button onclick="clicked(2)"><img src="images/Paper.png" alt="Stone Image"></button>
+      <button onclick="clicked(3)"><img src="images/Scissor.png" alt="Scissor Image"></button>
+
+      <br />
+      <br />
+      <p class="result"></p>
+      <p class="score"><span class="userScore"></span> <span class="computerScore"></span></p>
+      <button onclick="resetScores()" class="reset-button">Reset Scores</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
