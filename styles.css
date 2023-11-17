@@ -4,6 +4,7 @@ body{
 }
 
 .mainContainer{
+    width: 100%;
     position: absolute;
     top: 30%;
     left: 50%;
@@ -26,9 +27,23 @@ button:active{
     scale:0.8
 }
 
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 img{
     height: 10rem;
     width: 10rem;
+}
+
+@media screen and (max-width: 720px) {
+    img{
+        height: 7rem;
+        width: 7rem;
+    }
 }
 
 p{
